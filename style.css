@@ -1,0 +1,35 @@
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.imagen-noticia{
+    float:left;
+    margin-right: 10px;
+}
+
+article{
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.fecha-noticia{
+    font-style: italic;
+}
+
