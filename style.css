@@ -40,11 +40,34 @@ h2{
 }
 
 body{
-    min-height: 100vh;
+    min-height: 100%;
     position:relative;
 }
 
 footer{
     position:absolute;
     bottom:0;
+}
+
+section#galeria div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#galeria figure{
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+section#galeria img{
+    width: 300px;
+}
+
+section#galeria img:hover{
+    transform: scale(1.1);
+}
+
+section#galeria figcaption{
+    font-style: italic;
 }
