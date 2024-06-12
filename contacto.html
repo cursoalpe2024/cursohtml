@@ -24,19 +24,18 @@
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"
                     title="Solo nombres en mayúsculas" required>
-                <br>
                 <label for="apellidos">Apellidos:</label>
                 <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos"
                     title="Sin guiones" required>
-                <br>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="Escribe tu correo" required>
-                <br>
                 <label for="comentarios">Escribe tu comentario:</label>
-                <textarea name="comentarios" id="comentarios" required></textarea>
-                <br>
-                <button type="reset">Borrar</button>
-                <button type="submit">Enviar</button>
+                <textarea name="comentarios" id="comentarios" required minlength="100" maxlength="1000"></textarea>
+                <!-- minlength y maxlength definen el tope de caracteres, no de palabras -->
+                <div id="botones">
+                    <button type="reset">Borrar</button>
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </section>
     </main>
