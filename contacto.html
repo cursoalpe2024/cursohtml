@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -17,25 +19,30 @@
         </nav>
     </header>
     <main>
-        <form action="gracias.html">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" title="Solo nombres en mayúsculas" required>
-            <br>
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos" title="Sin guiones" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Escribe tu correo" required>
-            <br>
-            <label for="comentarios">Escribe tu comentario:</label>
-            <textarea name="comentarios" id="comentarios" required></textarea>
-            <br>
-            <button type="reset">Borrar</button>
-            <button type="submit">Enviar</button>
-        </form>
+        <section id="formulario">
+            <form action="gracias.html">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"
+                    title="Solo nombres en mayúsculas" required>
+                <br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos"
+                    title="Sin guiones" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Escribe tu correo" required>
+                <br>
+                <label for="comentarios">Escribe tu comentario:</label>
+                <textarea name="comentarios" id="comentarios" required></textarea>
+                <br>
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados &copy;2024</p>
     </footer>
 </body>
+
 </html>
